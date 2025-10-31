@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*******  Area para o cabecalho  ********/
+
+#link_area{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.texto_cor{
+    color: rgb(0, 109, 182);
+}
+
+/**** Links formato ********/
+a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+.botao-curriculum{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.botao-curriculum:hover{
+    box-shadow: 0px 0px 12px blue;
+}
+
+/* *** Area para p conteudo principal*/
+
+@keyframes mover{
+    from{left: -1000px; top: 0px;}
+    to{left: 0px; top: 0px;}
+}
+
+#Info_pessoal{
+    position: relative;
+    background-color: blueviolet ;
+    width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    border-radius: 20px;
+    animation-name: mover;
+    animation-duration: 2s;
+    font-size: 20px;
+}
+
+/* **** Imagem Formatacao**** */
+.img_pessoal img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    transition-duration: 1s;
+    border: 0px;
+    box-shadow: 0px 0px 25px rgb(77, 77, 77);
+}
+
+/*  **** Dados do Pessoal ***  */
+
+.dados_pessoal{
+    padding: 10px;
+    margin: auto 20px;
+}
+
+/*  **** Area Skills ***  */
+
+.Separador_skills{
+    background-color: rgb(0, 61, 102);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.skills_bloco{
+    background-color: black;
+    width: 300px;
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    text-decoration: none;
+}
+
+
